@@ -2,4 +2,11 @@ COBS-Metagenome_Parsing_Instructions
 
 These are instructions for how I've been parsing data from the COBS-Metagenome dataset based on SEED annotations of all contigs.
 
-1.  Load in ssid annotations file (R or something else)
+1.  Use the make_reference_list.R to make a .txt file that is just the contigs that you need
+2.	Upload the ref file to wherever the parsing is going to be run (in Desktop/RJW_KBASE/list_to_dict_search for example)
+3. run the python script parse_by_contig_list.py 'abundance summary file' 'reference list file' > 'parsed contigs file' (MAKE SURE THIS IS RUN IN ANOTHER SCREEN)
+
+Ex.
+
+python parse_by_contig_list.py ../abundance-summary2.txt ./reference_list_pMMO.txt > parsed_pMMO_contigs.txt
+
