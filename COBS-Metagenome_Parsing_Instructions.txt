@@ -1,0 +1,5 @@
+COBS-Metagenome_Parsing_Instructions
+
+These are instructions for how I've been parsing data from the COBS-Metagenome dataset based on SEED annotations of all contigs.
+
+1.  Load in ssid annotations file (R or something else)
