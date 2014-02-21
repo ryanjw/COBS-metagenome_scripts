@@ -1,4 +1,4 @@
 COBS-metagenome_scripts
 =======================
 
-This is a repo for scripts involved in the analysis
+This is a repo for scripts involved in our analyses
